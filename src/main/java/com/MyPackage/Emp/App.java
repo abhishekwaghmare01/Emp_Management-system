@@ -21,7 +21,7 @@ public class App
         
         Employe emp = new Employe(3, "Software","2025-11-12","Yash",sl1);
         ss.persist(emp);
-        																																																																																																																																																																																																																			
+        																																																														
         
         ss.getTransaction().commit();
         ss.close();
